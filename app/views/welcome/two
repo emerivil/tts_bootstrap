@@ -1,0 +1,18 @@
+<h1>Floats<h/h1>
+
+<%
+if @grades['EM'] > 95	
+%>
+
+TJ is good at stuff
+
+<%
+else 
+%>
+
+TJ is not so good at stuff.  His grade is <%=@grades['Chochie']%>
+
+
+<%
+end
+%>

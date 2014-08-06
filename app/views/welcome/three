@@ -1,0 +1,2 @@
+three
+<%=@array_hash["Trucks"][1] %>

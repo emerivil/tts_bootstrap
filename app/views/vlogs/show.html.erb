@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @vlog.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @vlog.description %>
+</p>
+
+<p>
+  <strong>Year founded:</strong>
+  <%= @vlog.year_founded %>
+</p>
+
+<%= link_to 'Edit', edit_vlog_path(@vlog) %> |
+<%= link_to 'Back', vlogs_path %>
